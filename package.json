@@ -1,7 +1,7 @@
 {
   "name": "pi-readline-search",
   "version": "0.1.0",
-  "description": "Pi extension for GNU Readline-style reverse search (https://en.wikipedia.org/wiki/GNU_Readline) on Ctrl+R",
+  "description": "Pi extension for GNU Readline-style reverse search on Ctrl+R",
   "type": "module",
   "keywords": [
     "pi-package",

@@ -40,11 +40,3 @@ This repo is a **pi package** via `package.json`:
 - `pi.extensions: ["./extensions"]`
 - extension entry: `extensions/readline-search.ts`
 
-## Publish to npm
-
-```bash
-npm login
-npm whoami
-npm publish --dry-run
-npm publish --access public
-```

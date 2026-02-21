@@ -1,6 +1,5 @@
 /**
- * GNU Readline-style reverse search (https://en.wikipedia.org/wiki/GNU_Readline)
- * for pi prompts and !bash history.
+ * GNU Readline-style reverse search for pi prompts and !bash history.
  *
  * Hotkeys while searching:
  * - Ctrl+R / ↑ : older match
@@ -193,7 +192,7 @@ class ReverseSearchComponent implements Component, Focusable {
 
 export default function readlineSearchExtension(pi: ExtensionAPI) {
 	pi.registerShortcut(Key.ctrl("r"), {
-		description: "GNU Readline reverse search (https://en.wikipedia.org/wiki/GNU_Readline)",
+		description: "GNU Readline reverse search through prompt history",
 		handler: async (ctx) => {
 			const history = collectHistory(ctx);
 
