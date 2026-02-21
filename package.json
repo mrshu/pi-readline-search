@@ -1,0 +1,39 @@
+{
+  "name": "pi-readline-search",
+  "version": "0.1.0",
+  "description": "Pi extension for GNU Readline-style reverse search (https://en.wikipedia.org/wiki/GNU_Readline) on Ctrl+R",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "gnu-readline",
+    "reverse-search"
+  ],
+  "author": "mr.Shu <mr@shu.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrshu/pi-readline-search.git"
+  },
+  "homepage": "https://github.com/mrshu/pi-readline-search",
+  "bugs": {
+    "url": "https://github.com/mrshu/pi-readline-search/issues"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}
