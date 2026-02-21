@@ -1,13 +1,24 @@
 {
   "name": "pi-readline-search",
   "version": "0.1.0",
-  "description": "Pi extension for GNU Readline-style reverse search on Ctrl+R",
+  "description": "GNU Readline-style Ctrl+R history search for pi prompts and bash commands without leaving the editor.",
   "type": "module",
   "keywords": [
     "pi-package",
     "pi-extension",
-    "gnu-readline",
-    "reverse-search"
+    "pi-plugin",
+    "pi-coding-agent",
+    "pi-cli",
+    "pi-tui",
+    "readline",
+    "reverse-search",
+    "reverse-i-search",
+    "ctrl-r",
+    "history-search",
+    "pi-history",
+    "prompt-history",
+    "command-history",
+    "bash-history"
   ],
   "author": "mr.Shu <mr@shu.io>",
   "license": "MIT",
